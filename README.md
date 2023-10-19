@@ -1,8 +1,8 @@
 <h1 align="center">Portifólio - Thiago 💻</h1>
 
-![Imagem do projeto finalizado](caminhoDaFoto)
+![Imagem do projeto finalizado](images/ImgPortifolio.jpg)
 
-<!-- <h4 align="center"><a href="https://">Confira o projeto aqui</a></h4> -->
+<h4 align="center"><a href="https://thigas0608.github.io/portifolio/">Confira o projeto aqui</a></h4>
 
 ## Sobre
 
@@ -14,7 +14,7 @@ Projeto feito no intuito de me apresentar, como desenvolvedor.
 - **Especialidades:** ;
 - **Sobre:** ;
 - **Projetos:** ;
-- **Conato:** ;
+- **Contato:** ;
 - **Redes:** .
 
 ## 🧠 Conceitos Aplicados
