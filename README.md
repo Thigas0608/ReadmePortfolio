@@ -1,6 +1,6 @@
 <h1 align="center">Portifólio - Thiago 💻</h1>
 
-![Imagem do projeto finalizado](images/ImgPortifolio.jpg)
+![Imagem do projeto finalizado](images/ImgPortifolio.png)
 
 <h4 align="center"><a href="https://thigas0608.github.io/portifolio/">Confira o projeto aqui</a></h4>
 
