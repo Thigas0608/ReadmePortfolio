@@ -12,18 +12,19 @@
         rel="stylesheet">
     <!-- FIM GOOGLE FONTS -->
     <link rel="stylesheet" href="style.css">
-    <title>Portifólio</title>
+    <title>Portfólio</title>
 </head>
 
 <body>
     <header id="header">
         <div class="interface">
-            <h4 class="titulo">Portifólio<span>.</span></h4>
+            <h4 class="titulo">Portfólio<span>.</span></h4>
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#especialidades">Especialidades</a></li>
                     <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
@@ -35,12 +36,12 @@
             </div><!--btn-contato-->
 
             <div class="btn-abrir-menu" id="btn-menu">
-                <img src="images/IconeMenu.png" alt="Icone Menu">
+                <img src="images/IconeMenu.png" alt="Menu">
             </div><!--btn-abrir-menu-->
 
             <div class="menu-mobile" id="menu-mobile">
                 <div class="btn-fechar">
-                    <i class="bi bi-x-lg"></i>
+                    <img src="images/IconeFechar.png" alt="Fechar">
                 </div><!--btn-contato-->
 
                 <nav>
@@ -48,6 +49,7 @@
                         <li><a href="#inicio">Inicio</a></li>
                         <li><a href="#especialidades">Especialidades</a></li>
                         <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#formacao">Formação</a></li>
                         <li><a href="#projetos">Projetos</a></li>
                         <li><a href="#faleComigo">Contato</a></li>
                     </ul>
@@ -87,31 +89,30 @@
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
                         <h3>BackEnd</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
-                            quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
-                            delectus incidunt perspiciatis!</p>
+                        <p>Como desenvolvedor de BackEnd, tenho expertise em criar sistemas robustos e eficientes para
+                            lidar com a lógica e os dados por trás das aplicações. Minha paixão é garantir que tudo
+                            funcione perfeitamente nos bastidores, proporcionando desempenho e escalabilidade
+                            excepcionais.</p>
                     </div><!--especialidades-box-->
 
                     <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
                         <h3>FrontEnd</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
-                            quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
-                            delectus incidunt perspiciatis!</p>
+                        <p>Sou um entusiasta do FrontEnd e especializado em trazer designs impressionantes à vida. Meu
+                            foco está em criar interfaces de usuário envolventes e responsivas que oferecem uma ótima
+                            experiência para os usuários. Cuido de todos os detalhes visuais e interativos.</p>
                     </div><!--especialidades-box-->
 
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
                         <h3>UI/UX</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
-                            quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
-                            delectus incidunt perspiciatis!</p>
+                        <p>Minha paixão é o design de experiência do usuário (UI/UX). Trabalho para criar interfaces
+                            intuitivas, agradáveis e eficazes que cativam e envolvem os usuários. Cada detalhe é
+                            cuidadosamente planejado para proporcionar a melhor experiência possível.</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--especialidades-->
+
 
         <section class="sobre" id="sobre">
             <div class="interface">
@@ -121,15 +122,20 @@
                     </div><!--img-sobre-->
 
                     <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU THIAGO HENRIQUE.</span></h2>
-                        <p>Jovem Aprendiz Tech na Vivo, trabalhando na área de arquitetura de soluções e integração
-                            de sistemas. Estudo Análise e Desenvolvimento de Sistemas na Uninter e sou apaixonado por
-                            tecnologia. No momento, estou focado em desenvolver minhas habilidades em Java , mas estou
-                            sempre disposto a aprender coisas novas e enfrentar novos desafios.
+                        <h2>OLÁ DEV, ME CHAMO <span>THIAGO HENRIQUE.</span></h2>
+                        <p>Tenho 19 anos e atualmente sou um estudante dedicado do curso de
+                            Análise e Desenvolvimento de Sistemas na Uninter. Minha paixão por tecnologia e games tem me
+                            guiado ao longo da minha jornada acadêmica e profissional.
                         </p>
-                        <p>Meu objetivo é me tornar um desenvolvedor Fullstack capaz de contribuir para o crescimento
-                            da equipe e da empresa em que trabalhar. Possuo habilidades técnicas e espírito de equipe, o
-                            que me permite enfrentar desafios com entusiasmo e crescer profissionalmente na área de TI.
+                        <p>Atualmente, sou um Jovem Aprendiz Tech na Vivo(Telefônica), onde atuo na área de Integração.
+                            Estou focado em aprimorar minhas habilidades em Java, mas também
+                            sou alguém que abraça desafios e está sempre ansioso para aprender novas tecnologias.
+                        </p>
+                        <p>
+                            Meu objetivo é me tornar um desenvolvedor Fullstack capaz de contribuir significativamente
+                            para o crescimento da equipe e da empresa em que trabalhar. Além de minhas habilidades
+                            técnicas, possuo um forte espírito de equipe, o que me permite enfrentar desafios com
+                            entusiasmo e continuar crescendo profissionalmente na área de TI.
                         </p>
 
                         <div class="btn-social">
@@ -144,9 +150,47 @@
             </div><!--interface-->
         </section><!--sobre-->
 
+        <section class="formacao" id="formacao">
+            <div class="interface">
+                <h2 class="titulo">FORMAÇÃO & <span>EXPERIÊNCIA.</span></h2>
+
+                <div class="formacao-experiencia">
+                    <h3>FORMAÇÃO ACADÊMICA</h3><br>
+                    <div class="flex">
+                        <img src="images/LogoUninter.png" alt="UNINTER">
+                        <div>
+                            <h3>UNINTER Centro Universitário Internacional</h3>
+                            <p>Análise Desenvolvimento de Sistemas</p>
+                            <p>março de 2023 - agosto de 2025</p>
+                        </div>
+                    </div><!--flex-->
+                    <div class="flex">
+                        <img src="images/LogoGama.jfif" alt="GAMA">
+                        <div>
+                            <h3>GAMA Academy</h3>
+                            <p>Tecnologia da Informação</p>
+                            <p>maio de 2023 - dezembro de 2025</p>
+                        </div>
+                    </div><!--flex-->
+                </div><!--formacao-experiencia-->
+
+                <div class="formacao-experiencia">
+                    <h3>EXPERIÊNCIA</h3><br>
+                    <div class="flex">
+                        <img src="images/LogoVivo.jfif" alt="VIVO">
+                        <div>
+                            <h3>Aprendiz Tech</h3>
+                            <p>Vivo (Telefônica Brasil) - Aprendiz</p>
+                            <p>setembro de 2022 - dezembro de 2023</p>
+                        </div>
+                    </div><!--flex-->
+                </div><!--formacao-experiencia-->
+            </div><!--interface-->
+        </section><!--formacao-->
+
         <section class="portfolio" id="projetos">
             <div class="interface">
-                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
                 <div class="flex">
                     <div class="img-port" style="background-image: url(images/ImagemSiteConexo.png);">
                         <div class="overlay">Projeto 1</div>
@@ -181,7 +225,7 @@
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                    <h4 class="titulo">Portifólio<span>.</span></h4>
+                    <h4 class="titulo">Portfólio<span>.</span></h4>
                     <div class="btn-social">
                         <a href="https://github.com/Thigas0608" target="_blank"><button><img class="github"
                                     src="images/LogoGitHub.png" alt="GitHub"></button></a>
@@ -202,5 +246,4 @@
     <script src="menu.js" defer></script>
     <!-- FIM JS -->
 </body>
-
 </html>
