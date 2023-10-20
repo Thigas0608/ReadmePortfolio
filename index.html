@@ -11,25 +11,14 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- FIM GOOGLE FONTS -->
-    <!-- BOOTSTRAP ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <!-- FIM BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="style.css">
-
-    <script src="menu.js" defer></script>
-
     <title>Portifólio</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="#" alt="Minha Logo">
-                </a>
-            </div><!--logo-->
-
+            <h4 class="titulo">Portifólio<span>.</span></h4>
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -46,7 +35,7 @@
             </div><!--btn-contato-->
 
             <div class="btn-abrir-menu" id="btn-menu">
-                <i class="bi bi-list"></i>
+                <img src="images/IconeMenu.png" alt="Icone Menu">
             </div><!--btn-abrir-menu-->
 
             <div class="menu-mobile" id="menu-mobile">
@@ -80,7 +69,7 @@
                             online dos seus sonhos</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#faleComigo">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -99,7 +88,7 @@
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
-                        <h3>Website</h3>
+                        <h3>BackEnd</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
                             quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
                             delectus incidunt perspiciatis!</p>
@@ -107,7 +96,7 @@
 
                     <div class="especialidades-box">
                         <i class="bi bi-cart"></i>
-                        <h3>Loja online</h3>
+                        <h3>FrontEnd</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
                             quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
                             delectus incidunt perspiciatis!</p>
@@ -115,7 +104,7 @@
 
                     <div class="especialidades-box">
                         <i class="bi bi-wordpress"></i>
-                        <h3>Blog</h3>
+                        <h3>UI/UX</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsa aliquid dolor itaque
                             quis! Deserunt quisquam error, a nam suscipit nemo assumenda, enim optio sed minima impedit
                             delectus incidunt perspiciatis!</p>
@@ -133,17 +122,22 @@
 
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU THIAGO HENRIQUE.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus ipsa fugiat dolores
-                            eligendi magnam distinctio facere ex impedit ad repellat asperiores repellendus vero,
-                            officiis quia minus nulla obcaecati nihil.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium optio consectetur nisi!
-                            Aliquam ipsam fugiat sit saepe ducimus dolorum, nisi, aut rem consequuntur atque quo,
-                            debitis repellendus cum voluptatem eum!</p>
+                        <p>Jovem Aprendiz Tech na Vivo, trabalhando na área de arquitetura de soluções e integração
+                            de sistemas. Estudo Análise e Desenvolvimento de Sistemas na Uninter e sou apaixonado por
+                            tecnologia. No momento, estou focado em desenvolver minhas habilidades em Java , mas estou
+                            sempre disposto a aprender coisas novas e enfrentar novos desafios.
+                        </p>
+                        <p>Meu objetivo é me tornar um desenvolvedor Fullstack capaz de contribuir para o crescimento
+                            da equipe e da empresa em que trabalhar. Possuo habilidades técnicas e espírito de equipe, o
+                            que me permite enfrentar desafios com entusiasmo e crescer profissionalmente na área de TI.
+                        </p>
 
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/Thigas0608" target="_blank"><button><img class="github"
+                                        src="images/LogoGitHub.png" alt="GitHub"></button></a>
+                            <a href="https://www.linkedin.com/in/thiago-henrique-3aa5aa257/ "
+                                target="_blank"><button><img class="linkedIn" src="images/LogoLinkedIn.png"
+                                        alt="LinkedIn"></button></a>
                         </div>
                     </div><!--txt-sobre-->
                 </div><!--flex-->
@@ -157,10 +151,10 @@
                     <div class="img-port" style="background-image: url(images/ImagemSiteConexo.png);">
                         <div class="overlay">Projeto 1</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/ImagemSiteConexo.png);">
+                    <div class="img-port" style="background-image: url(images/ImagemSiteOmma.png);">
                         <div class="overlay">Projeto 2</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/ImagemSiteConexo.png);">
+                    <div class="img-port" style="background-image: url(images/ImagemSitePortifolio.png);">
                         <div class="overlay">Projeto 3</div>
                     </div>
                 </div><!--flex-->
@@ -187,25 +181,26 @@
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                    <div class="logo-footer">
-                        <img src="#" alt="Minha Logo">
-                    </div><!--logo-footer-->
+                    <h4 class="titulo">Portifólio<span>.</span></h4>
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/Thigas0608" target="_blank"><button><img class="github"
+                                    src="images/LogoGitHub.png" alt="GitHub"></button></a>
+                        <a href="https://www.linkedin.com/in/thiago-henrique-3aa5aa257/ " target="_blank"><button><img
+                                    class="linkedIn" src="images/LogoLinkedIn.png" alt="LinkedIn"></button></a>
                     </div>
                 </div>
             </div><!--line-footer-->
             <div class="line-footer borda">
                 <p>
-                    <i class="bi bi-envelope-fill"></i><a
-                        href="mailto:th0608thiago@gmail.com">th0608thiago@gmail.com</a>
+                    <a href="mailto:th0608thiago@gmail.com">th0608thiago@gmail.com</a>
                 </p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
 
+    <!-- JS -->
+    <script src="menu.js" defer></script>
+    <!-- FIM JS -->
 </body>
 
 </html>
