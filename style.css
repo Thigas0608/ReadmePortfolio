@@ -40,13 +40,15 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
-h2.titulo, h4.titulo {
+h2.titulo,
+h4.titulo {
     color: #fff;
     font-size: 38px;
     text-align: center;
 }
 
-h2.titulo span, h4.titulo span{
+h2.titulo span,
+h4.titulo span {
     color: #f30606;
 }
 
@@ -59,12 +61,13 @@ header {
     z-index: 999999;
 }
 
-header.rolagem{
+header.rolagem {
     background-color: #8b8b8bf7;
     padding: 20px;
 }
 
-header.rolagem a, header.rolagem h4{
+header.rolagem a,
+header.rolagem h4 {
     color: #000;
 }
 
@@ -72,9 +75,11 @@ header.rolagem nav.menu-desktop a:hover {
     color: #ff0000;
     transform: scale(1.05);
 }
-header.rolagem div.btn-contato button{
+
+header.rolagem div.btn-contato button {
     color: #fff;
 }
+
 header>.interface {
     display: flex;
     align-items: center;
@@ -91,7 +96,7 @@ header a {
 header nav.menu-desktop li:hover {
     color: #fff;
     transform: scale(1.05);
-    
+
 }
 
 header nav ul {
@@ -289,19 +294,19 @@ section.sobre .txt-sobre p {
     margin-top: 30px;
 }
 
-.btn-social button img.linkedIn{
+.btn-social button img.linkedIn {
     width: 60%;
     height: 60%;
 }
 
-.btn-social button img.github{
+.btn-social button img.github {
     width: 90%;
     height: 90%;
 }
 
 /* ESTILO FORMAÇÃO */
 
-section.formacao{
+section.formacao {
     padding: 140px 4%;
 }
 
@@ -313,14 +318,14 @@ section.formacao .formacao-experiencia {
     box-shadow: 0 0 15px #ffffff78;
 }
 
-section.formacao .formacao-experiencia .flex{
+section.formacao .formacao-experiencia .flex {
     flex-direction: initial;
     gap: 60px;
     align-items: center;
     padding: 30px;
 }
 
-section.formacao .formacao-experiencia img{
+section.formacao .formacao-experiencia img {
     width: 100px;
     height: 100px;
 }
@@ -456,6 +461,16 @@ footer .line-footer p a {
         position: relative;
     }
 
+    .btn-abrir-menu img {
+        width: 50px;
+        height: 50px;
+    }
+
+    div.menu-mobile .btn-fechar img {
+        width: 40px;
+        height: 40px;
+    }
+
     /* MENU MOBILE */
     .btn-abrir-menu {
         display: block;
@@ -497,12 +512,12 @@ footer .line-footer p a {
 
     /* ESTILOS DAS ESPECIALIDADES */
     section.especialidades {
-        padding: 130px 8%;
+        padding: 80px 8%;
     }
 
     /* ESTILO DO SOBRE */
     section.sobre {
-        padding: 130px 8%;
+        padding: 80px 8%;
     }
 
     section.sobre .txt-sobre h2 {
@@ -523,9 +538,25 @@ footer .line-footer p a {
         width: 100%;
     }
 
+    /* ESTILO FORMAÇÃO */
+    section.formacao{
+        padding: 80px 8%;
+    }
+
+    section.formacao h2 {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    section.formacao div.formacao-experiencia div.flex{
+        flex-direction: column;
+        text-align: center;
+    }
+
     /* ESTILO DO PORTFÓLIO */
     section.portfolio {
-        padding: 130px 8%;
+        padding: 80px 8%;
     }
 
     .img-port {
