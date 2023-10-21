@@ -1,29 +1,41 @@
-<h1 align="center">Portifólio - Thiago 💻</h1>
+# Portfólio - Thiago 💻
 
-![Imagem do projeto finalizado](images/ImgPortifolio.png)
+<p align="center">
+  <img src="images/ImgPortifolio.png" alt="Imagem do projeto finalizado">
+</p>
 
-<h4 align="center"><a href="https://thigas0608.github.io/portifolio/">Confira o projeto aqui</a></h4>
+<h4 align="center">
+  <a href="https://thigas0608.github.io/portifolio/">Confira o projeto aqui</a>
+</h4>
 
 ## Sobre
 
-Projeto feito no intuito de me apresentar, como desenvolvedor.
+Este projeto foi criado com o objetivo de me apresentar como desenvolvedor e demonstrar minhas habilidades e experiência.
 
-### O site é composto por:
+### Conteúdo do Site
 
-- **Inicio:** ;
-- **Especialidades:** ;
-- **Sobre:** ;
-- **Projetos:** ;
-- **Contato:** ;
-- **Redes:** .
+Meu portfólio é dividido em várias seções, cada uma com um propósito específico:
+
+- **Início:** Uma breve introdução.
+- **Especialidades:** Destaca minhas áreas de especialização.
+- **Sobre:** Apresenta informações sobre mim.
+- **Projetos:** Exibe alguns dos projetos que desenvolvi.
+- **Contato:** Fornece informações de contato.
+- **Redes:** Links para minhas redes sociais.
 
 ## 🧠 Conceitos Aplicados
 
-- Estrutura HTML válida.
-- Importação de fontes externas.
-- Uso de ícones.
-- Semântica HTML com tags apropriadas.
-- Links de navegação.
-- Acessibilidade com atributos `alt`.
-- Utilização de classes CSS para estilização.
-- Responsividade com flexbox.
+Este projeto incorpora diversos conceitos e práticas:
+
+- Utilização de uma estrutura HTML válida e bem organizada.
+- Importação de fontes externas para uma aparência personalizada.
+- Uso de ícones para melhorar a experiência do usuário.
+- Utilização de marcação semântica em HTML com tags apropriadas.
+- Implementação de links de navegação para facilitar a interação do usuário.
+- Garantia de acessibilidade através do uso de atributos `alt` em imagens.
+- Aplicação de estilos CSS com o uso de classes para uma apresentação visual atraente.
+- Responsividade usando flexbox para proporcionar uma experiência consistente em diferentes dispositivos.
+
+Sinta-se à vontade para explorar o projeto e entre em contato caso tenha alguma pergunta ou feedback!
+
+[Visite o projeto](https://thigas0608.github.io/portifolio/)

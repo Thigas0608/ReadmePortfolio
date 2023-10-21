@@ -105,7 +105,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 30px;
 }
 
 /* ESTILO DO MENU MOBILE */
@@ -305,7 +305,6 @@ section.sobre .txt-sobre p {
 }
 
 /* ESTILO FORMAÇÃO */
-
 section.formacao {
     padding: 140px 4%;
 }

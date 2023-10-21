@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- GOOGLE FONTS  -->
+    <!-- Adicionando a fonte do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;
+        0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <!-- FIM GOOGLE FONTS -->
+    <!-- Adicionando seu arquivo de estilo CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Portfólio</title>
 </head>
-
 <body>
+    <!-- Cabeçalho (Header) -->
     <header id="header">
         <div class="interface">
             <h4 class="titulo">Portfólio<span>.</span></h4>
+            <!-- Menu para Desktop -->
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -28,22 +28,21 @@
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
-
+            <!-- Botão de Contato -->
             <div class="btn-contato">
                 <a href="#faleComigo">
                     <button>Contatos</button>
                 </a>
-            </div><!--btn-contato-->
-
+            </div>
+            <!-- Botão para Abrir Menu Mobile -->
             <div class="btn-abrir-menu" id="btn-menu">
                 <img src="images/IconeMenu.png" alt="Menu">
-            </div><!--btn-abrir-menu-->
-
+            </div>
+            <!-- Menu Mobile -->
             <div class="menu-mobile" id="menu-mobile">
                 <div class="btn-fechar">
                     <img src="images/IconeFechar.png" alt="Fechar">
-                </div><!--btn-contato-->
-
+                </div>
                 <nav>
                     <ul>
                         <li><a href="#inicio">Inicio</a></li>
@@ -54,13 +53,13 @@
                         <li><a href="#faleComigo">Contato</a></li>
                     </ul>
                 </nav>
-
-            </div><!--menu-mobile-->
+            </div>
+            <!-- Overlay do Menu Mobile -->
             <div class="overlay-menu" id="overlay-menu"></div>
-        </div> <!--interface-->
+        </div>
     </header>
-
     <main>
+        <!-- Seção Inicial -->
         <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
@@ -69,92 +68,85 @@
                         <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante,
                             funcionalidade intuitiva e otimização para resultados, estou pronto para criar a presença
                             online dos seus sonhos</p>
-
                         <div class="btn-contato">
                             <a href="#faleComigo">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
-                    </div><!--txt-topo-site-->
-
+                    </div>
                     <div class="img-topo-site">
                         <img src="images/ImagemDoSite1.jpg" alt="">
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção de Especialidades -->
         <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
+                    <!-- Especialidade: BackEnd -->
                     <div class="especialidades-box">
                         <h3>BackEnd</h3>
                         <p>Como desenvolvedor de BackEnd, tenho expertise em criar sistemas robustos e eficientes para
                             lidar com a lógica e os dados por trás das aplicações. Minha paixão é garantir que tudo
                             funcione perfeitamente nos bastidores, proporcionando desempenho e escalabilidade
                             excepcionais.</p>
-                    </div><!--especialidades-box-->
-
+                    </div>
+                    <!-- Especialidade: FrontEnd -->
                     <div class="especialidades-box">
                         <h3>FrontEnd</h3>
                         <p>Sou um entusiasta do FrontEnd e especializado em trazer designs impressionantes à vida. Meu
                             foco está em criar interfaces de usuário envolventes e responsivas que oferecem uma ótima
                             experiência para os usuários. Cuido de todos os detalhes visuais e interativos.</p>
-                    </div><!--especialidades-box-->
-
+                    </div>
+                    <!-- Especialidade: UI/UX -->
                     <div class="especialidades-box">
                         <h3>UI/UX</h3>
                         <p>Minha paixão é o design de experiência do usuário (UI/UX). Trabalho para criar interfaces
                             intuitivas, agradáveis e eficazes que cativam e envolvem os usuários. Cada detalhe é
                             cuidadosamente planejado para proporcionar a melhor experiência possível.</p>
-                    </div><!--especialidades-box-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--especialidades-->
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Sobre -->
         <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="images/ImagemDoSite2.jpg" alt="">
-                    </div><!--img-sobre-->
-
+                    </div>
                     <div class="txt-sobre">
                         <h2>OLÁ DEV, ME CHAMO <span>THIAGO HENRIQUE.</span></h2>
                         <p>Tenho 19 anos e atualmente sou um estudante dedicado do curso de
                             Análise e Desenvolvimento de Sistemas na Uninter. Minha paixão por tecnologia e games tem me
-                            guiado ao longo da minha jornada acadêmica e profissional.
-                        </p>
+                            guiado ao longo da minha jornada acadêmica e profissional.</p>
                         <p>Atualmente, sou um Jovem Aprendiz Tech na Vivo(Telefônica), onde atuo na área de Integração.
                             Estou focado em aprimorar minhas habilidades em Java, mas também
-                            sou alguém que abraça desafios e está sempre ansioso para aprender novas tecnologias.
-                        </p>
+                            sou alguém que abraça desafios e está sempre ansioso para aprender novas tecnologias.</p>
                         <p>
                             Meu objetivo é me tornar um desenvolvedor Fullstack capaz de contribuir significativamente
                             para o crescimento da equipe e da empresa em que trabalhar. Além de minhas habilidades
                             técnicas, possuo um forte espírito de equipe, o que me permite enfrentar desafios com
-                            entusiasmo e continuar crescendo profissionalmente na área de TI.
-                        </p>
-
+                            entusiasmo e continuar crescendo profissionalmente na área de TI.</p>
                         <div class="btn-social">
+                            <!-- Links para GitHub e LinkedIn -->
                             <a href="https://github.com/Thigas0608" target="_blank"><button><img class="github"
                                         src="images/LogoGitHub.png" alt="GitHub"></button></a>
-                            <a href="https://www.linkedin.com/in/thiago-henrique-3aa5aa257/ "
-                                target="_blank"><button><img class="linkedIn" src="images/LogoLinkedIn.png"
-                                        alt="LinkedIn"></button></a>
+                            <a href="https://www.linkedin.com/in/thiago-henrique-3aa5aa257/ " target="_blank"><button><img
+                                        class="linkedIn" src="images/LogoLinkedIn.png" alt="LinkedIn"></button></a>
                         </div>
-                    </div><!--txt-sobre-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--sobre-->
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Formação e Experiência -->
         <section class="formacao" id="formacao">
             <div class="interface">
                 <h2 class="titulo">FORMAÇÃO & <span>EXPERIÊNCIA.</span></h2>
-
                 <div class="formacao-experiencia">
-                    <h3>FORMAÇÃO ACADÊMICA</h3><br>
+                    <h3>FORMAÇÃO ACADÊMICA</h3>
                     <div class="flex">
                         <img src="images/LogoUninter.png" alt="UNINTER">
                         <div>
@@ -162,7 +154,7 @@
                             <p>Análise Desenvolvimento de Sistemas</p>
                             <p>março de 2023 - agosto de 2025</p>
                         </div>
-                    </div><!--flex-->
+                    </div>
                     <div class="flex">
                         <img src="images/LogoGama.jfif" alt="GAMA">
                         <div>
@@ -170,11 +162,10 @@
                             <p>Tecnologia da Informação</p>
                             <p>maio de 2023 - dezembro de 2025</p>
                         </div>
-                    </div><!--flex-->
-                </div><!--formacao-experiencia-->
-
+                    </div>
+                </div>
                 <div class="formacao-experiencia">
-                    <h3>EXPERIÊNCIA</h3><br>
+                    <h3>EXPERIÊNCIA</h3>
                     <div class="flex">
                         <img src="images/LogoVivo.jfif" alt="VIVO">
                         <div>
@@ -182,15 +173,16 @@
                             <p>Vivo (Telefônica Brasil) - Aprendiz</p>
                             <p>setembro de 2022 - dezembro de 2023</p>
                         </div>
-                    </div><!--flex-->
-                </div><!--formacao-experiencia-->
-            </div><!--interface-->
-        </section><!--formacao-->
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Portfolio -->
         <section class="portfolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
                 <div class="flex">
+                    <!-- Imagens de Projetos -->
                     <div class="img-port" style="background-image: url(images/ImagemSiteConexo.png);">
                         <div class="overlay">Projeto 1</div>
                     </div>
@@ -200,50 +192,47 @@
                     <div class="img-port" style="background-image: url(images/ImagemSitePortifolio.png);">
                         <div class="overlay">Projeto 3</div>
                     </div>
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--portfolio-->
-
+                </div>
+            </div>
+        </section>
+        <!-- Seção Formulário de Contato -->
         <section class="formulario" id="faleComigo">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-
                 <form action="">
+                    <!-- Campos de Contato -->
                     <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail::" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
                     <input type="text" name="" id="" placeholder="Seu celular:">
                     <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-
                 </form>
-            </div><!--interface-->
-        </section><!--formulario-->
+            </div>
+        </section>
     </main>
-
     <footer>
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
                     <h4 class="titulo">Portfólio<span>.</span></h4>
                     <div class="btn-social">
+                        <!-- Links para GitHub e LinkedIn no rodapé -->
                         <a href="https://github.com/Thigas0608" target="_blank"><button><img class="github"
                                     src="images/LogoGitHub.png" alt="GitHub"></button></a>
                         <a href="https://www.linkedin.com/in/thiago-henrique-3aa5aa257/ " target="_blank"><button><img
                                     class="linkedIn" src="images/LogoLinkedIn.png" alt="LinkedIn"></button></a>
                     </div>
                 </div>
-            </div><!--line-footer-->
+            </div>
             <div class="line-footer borda">
                 <p>
+                    <!-- E-mail de contato no rodapé -->
                     <a href="mailto:th0608thiago@gmail.com">th0608thiago@gmail.com</a>
                 </p>
-            </div><!--line-footer-->
-        </div><!--interface-->
+            </div>
+        </div>
     </footer>
-
-    <!-- JS -->
+    <!-- Adicionando arquivo JavaScript -->
     <script src="menu.js" defer></script>
-    <!-- FIM JS -->
 </body>
-
 </html>
